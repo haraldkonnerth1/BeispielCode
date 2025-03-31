@@ -14,7 +14,7 @@ private List<String> getKeys(final Map<String, String> hashMap, final String wer
 
 
   //Map aus Werten aus .properties Datei holen
-    public java.util.Map<String, String> erzeugeProtokollNamenMap()
+    public java.util.Map<String, String> erzeugeNamenMap()
     {
 
         final Optional<Properties> ereignisIdsMeldungen = this.readPropertiesFile();
